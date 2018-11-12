@@ -37,9 +37,6 @@ namespace DotNetCoreSqlDb
 
 			// Automatically perform database migration
 			services.BuildServiceProvider().GetService<MyDatabaseContext>().Database.Migrate();
-					
-					
-					
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
