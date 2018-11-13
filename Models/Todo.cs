@@ -16,6 +16,7 @@ namespace DotNetCoreSqlDb.Models
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime CreatedDate { get; set; }
 
+		[Display(Name = "Task Done")]
 		public bool Done { get; set; }
 	}
 }
